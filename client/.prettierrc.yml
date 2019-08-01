@@ -1,0 +1,9 @@
+trailingComma: 'es5'
+tabWidth: 2
+singleQuote: true
+jsxBracketSameLine: true
+
+overrides:
+  - files: "*.json"
+    options:
+      tabWidth: 2
