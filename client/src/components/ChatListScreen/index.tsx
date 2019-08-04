@@ -1,12 +1,17 @@
 import React from 'react';
 import ChatsNavbar from './ChatNavbar';
 import ChatsList from './ChatList';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  height: 100vh;
+`;
 
 const ChatListScreen: React.FC = () => (
-  <div>
+  <Container>
     <ChatsNavbar />
     <ChatsList />
-  </div>
+  </Container>
 );
 
 export default ChatListScreen;
